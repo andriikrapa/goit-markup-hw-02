@@ -1,0 +1,267 @@
+:root{
+    --secondary-bg-color: #F5F4FA;
+    --footer-bg-color: #2F303A;
+
+    --title-text-color:#212121;
+    --title-secondary-text-color:#FFFFFF;
+    --primery-text-color:#757575;
+    --footer-text-color:rgba(255, 255, 255, 0.6);
+   
+    --accent-color:#2196F3;
+    --button-color:#2196F3;
+}
+
+body {
+    background-color:#ffffff;
+    color: var(--primery-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.list {
+    list-style: none;`
+}
+
+.link {
+    text-decoration: none;
+}   
+
+/* Header */
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+   
+}
+
+.logo:hover,
+.logo:focus{
+    color: var(--accent-color);
+}
+
+.web{
+    color:var(--accent-color);
+}
+
+.site-nav-list-item-link,
+.header-address-mail, 
+.header-address-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color); 
+}
+
+.site-nav-list-item-link:hover,
+.site-nav-list-item-link:focus,
+.header-address-mail:hover,
+.header-address-mail:focus, 
+.header-address-tel:hover,
+.header-address-tel:focus {
+    color: var(--accent-color)
+}    
+  
+.header-address-mail, 
+.header-address-tel
+{color:var(--primery-text-color);
+}
+
+
+
+ /* MAIN */
+
+  /* HERO */
+.hero-title,
+.hero-btn{
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: red;
+}
+
+.hero-btn{
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color:var(--title-text-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    color:var(--title-secondary-text-color);
+    background-color: var(--button-color);
+}
+
+
+
+/* Signs about us */
+.section{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section-title{
+    color:var(--title-text-color)
+}
+
+.discription{
+    font-weight: normal;
+    line-height: 24px;
+}
+
+/* What we do */
+.section-we-do{
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+.section-title-we-do,
+.section-title-our-team,
+.section-title-regular-clients{
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--title-text-color);
+    text-align: center;
+}
+.discription-we-do{
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: red
+}
+
+/* Our team */
+.our-team{
+    background-color: var(--secondary-bg-color);
+}
+
+.section-title-our-team,
+.section-title-our-team-names,
+.description-our-team{
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-title-our-team-names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color:var(--title-text-color);
+}
+
+.description-our-team{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+
+/* Regular clients */
+
+
+
+/* Footer */
+footer{
+    background-color: var(--footer-bg-color);
+    color:var(--title-secondary-text-color);
+    
+}
+.Studio-f{
+    color:var(--title-secondary-text-color);
+}
+
+.Studio-f:hover,
+.Studio-f:focus{
+    color: var(--accent-color);
+}   
+
+.contacts-footer{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.contact-mail-f,
+.contact-tel-f{
+color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-join-f,
+.contact-subscribe-f{
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.contact-subscribe-btn-f{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.contact-subscribe-btn-f:hover,
+.contact-subscribe-btn-f:focus{
+    color:var(--title-secondary-text-color);
+    background-color: var(--button-color);
+}
+
+
+/* цвет основного текста #212121*/
+/* второстепенный цвет #757575*/
+/* белый #FFFFFF*/
+/* акцент #2196F3*/
+/* вторичный цвет фона #F5F4FA */
+
+
+/* PORTFOLIO */
+
+/* Our works */
+.our-works-list-btn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;   
+    color:var(--title-text-color);
+}
+.our-works-list-btn:hover,
+.our-works-list-btn:focus{
+    color:var(--title-secondary-text-color);
+    background-color: var(--button-color);
+}
+
+.pictures-items-link-title{
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color:var(--title-text-color);
+}
+
+.pictures-items-link-position{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
